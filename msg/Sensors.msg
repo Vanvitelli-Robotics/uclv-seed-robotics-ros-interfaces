@@ -1,3 +1,3 @@
 std_msgs/Header header
-geometry_msgs/Vector3[] value
+geometry_msgs/Vector3[] values
 uint16[] ids

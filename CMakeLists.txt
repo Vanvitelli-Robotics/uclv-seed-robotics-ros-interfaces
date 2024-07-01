@@ -21,6 +21,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorPositions.msg"
   "msg/FTS3Sensors.msg"
+  "msg/MotorVelocities.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

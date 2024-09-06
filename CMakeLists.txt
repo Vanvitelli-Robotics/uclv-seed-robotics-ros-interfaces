@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorPositions.msg"
   "msg/FTS3Sensors.msg"
   "msg/MotorVelocities.msg"
+  "srv/DataValue.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

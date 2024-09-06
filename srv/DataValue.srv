@@ -1,0 +1,4 @@
+### DataValue per essere il più generico possibile
+float64 value 
+---
+bool success

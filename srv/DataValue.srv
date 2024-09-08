@@ -1,4 +1,6 @@
-### DataValue per essere il più generico possibile
-float64 value 
----
+# Request
+float64 gain
+
+# Response
 bool success
+string message

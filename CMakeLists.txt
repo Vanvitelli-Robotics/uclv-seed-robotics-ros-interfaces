@@ -25,7 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Float64Stamped.msg"
   "msg/SensorsNorm.msg"
   "msg/ErrorMessage.msg"
-  "srv/DataValue.srv"
+  "srv/SetGa9j.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

@@ -24,8 +24,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorVelocities.msg"
   "msg/Float64Stamped.msg"
   "msg/SensorsNorm.msg"
-  "msg/ErrorMessage.msg"
-  "srv/SetGa9j.srv"
+  "msg/MotorError.msg"
+  "srv/SetGain.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

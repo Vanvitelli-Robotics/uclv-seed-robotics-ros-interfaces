@@ -1,2 +1,2 @@
-ucla_seed_robotics_interfaces/Float64Stamped[] norm
+uclv_seed_robotics_ros_interfaces/Float64Stamped[] norm
 uint16[] ids

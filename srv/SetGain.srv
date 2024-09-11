@@ -1,6 +1,6 @@
 # Request
 float64 gain
-
+---
 # Response
 bool success
 string message

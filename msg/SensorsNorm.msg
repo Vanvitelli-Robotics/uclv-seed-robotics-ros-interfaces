@@ -1,3 +1,3 @@
 std_msgs/Header header
-std_msgs/Float32[] norms
+float64[] norms
 uint16[] ids

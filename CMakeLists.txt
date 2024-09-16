@@ -21,10 +21,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorPositions.msg"
   "msg/FTS3Sensors.msg"
-  "msg/MotorVelocities.msg"
-  "msg/Float64Stamped.msg"
-  "msg/SensorsNorm.msg"
-  "msg/MotorError.msg"
+  "msg/Float64WithIdsStamped.msg"
   "srv/SetGain.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )

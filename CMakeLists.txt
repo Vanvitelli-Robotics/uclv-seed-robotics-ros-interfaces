@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FTS3Sensors.msg"
   "msg/Float64WithIdsStamped.msg"
   "srv/SetGain.srv"
+  "srv/CalibrateSensors.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

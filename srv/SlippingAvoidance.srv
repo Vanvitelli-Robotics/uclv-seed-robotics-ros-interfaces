@@ -1,0 +1,7 @@
+# Request
+float64[] data
+uint16[] ids
+---
+# Response
+bool success
+string message

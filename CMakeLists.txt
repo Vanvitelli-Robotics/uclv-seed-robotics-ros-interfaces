@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Float64WithIdsStamped.msg"
   "srv/SetGain.srv"
   "srv/CalibrateSensors.srv"
+  "srv/SlippingAvoidance.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
